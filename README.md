@@ -1,5 +1,5 @@
 # CRISPR
-An affordable CRISPR with an Arduino AT328P. This system demonstrates affordable gene splicing technology for DNA modification using the CRISPR CAS9 and CAS13 systems. This is an experimental project which serves as a proof of concept design.
+An affordable CRISPR with an Arduino AT328P. This system demonstrates affordable gene splicing technology for DNA modification using the CRISPR CAS9 and CAS13 systems. This is an experimental project which serves as a proof of concept design to aid in future bio-engineering efforts.
 
 # Components
 There are three main components to this system:
