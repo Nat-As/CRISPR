@@ -8,7 +8,7 @@ The LCD pins DB0 - DB7 are connected to the Arduino pins 0-7 (PORTD) respectivel
 
 Each function will either write a character and shift the cursor one place to the right or clear the entire display and set the cursor to the leftmost position. For example:
 
-```
+```assembly
 CALL LCDCLR; Clear display
 CALL LCD9;   Display 9 and shift right
 CALL LCD9
