@@ -17,5 +17,12 @@ CALL LCD9
 
 # Reserved General Purpose Registers
 
-Time Delay: 
-LCD: 
+|    GPR        | Function      | Reusable  |
+| ------------- |:-------------:| :--------:|
+| R18      |   DELAY       | Y |
+| R16      |   LCD         | N |
+| R17      |   LCD         | N |
+
+```
+Note: Reusable registers will still affect the register they use after being called.
+```
