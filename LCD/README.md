@@ -19,7 +19,8 @@ CALL LCD9
 
 |    GPR        |Value| Function      | Reusable  |
 | --------- |:---:|:----------:| :--------:|
-| R18       |0x##|   DELAY       | Y |
+| R20       |0x##|   DELAY       | Y |
+| R21       |0x##|   DELAY       | Y |
 | R16       |0x00|   LCD         | N |
 | R17       |0xFF|   LCD         | N |
 
