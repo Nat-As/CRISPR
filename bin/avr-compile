@@ -1,1 +1,10 @@
-setting
+echo "Compiling $1.c"
+if [ $# -eq 0 ]; then
+	echo "What the fuck am I suppossed to compile?"
+	echo "Usage: $0 FILE"
+	exit 1
+fi
+avr-gcc -Os -mmcu=atmega328p -c -o $1.o $1.c
+avr-gcc -Os -mmcu=atmega328p -o $1.elf $1.o
+avr-objcopy -O ihex -R .eeprom $1.elf $1.hex
+echo "Done!"
