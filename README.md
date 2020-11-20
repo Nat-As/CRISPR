@@ -30,3 +30,9 @@ The arduino UNO will be connected to the LCD as shown below.
 |D7|0|
 |A|+5V|
 |K|GND|
+
+# Compile
+You can use atmel studio with it's included libraries, or build the project on linux with the included build scripts:
+1. ```/bin/avr-compile```
+2. ```/bin/avr-flash```
+3. Step 2 will ask for sudo password to access serial devices.
